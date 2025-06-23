@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
-model = load_model('clean_cat_dog_model.h5')
+model = load_model("clean_model.keras")
 
 st.title("🐶🐱 Cat vs Dog Classifier")
 st.write("Upload an image and the model will tell if it's a cat or a dog!")
